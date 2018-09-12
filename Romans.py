@@ -1,6 +1,7 @@
 #Romans
 #Use all dicts for 1 Corinthians
 import random
+from datetime import *
 
 
 def pickRandFavoriteVerse(favoriteVerse):
@@ -84,6 +85,70 @@ endants be."'
 ]
     return mainHeadings, boldVerse, keyLinks, favoriteVerse
 
+def chapter5():
+    mainHeadings = ['Faith Triumphs in Trouble', 'Christ in Our Place', 'Death \
+in Adam, Life in Christ']
+    boldVerse = ['For when we were still without strength, in due time Christ d\
+ied for the ungodly.','Therefore, just as through one man sin entered the world\
+, and death through sin, and thus death spread to all men, because all sinned--']
+    keyLinks = {'5:1':'Another ancient reading is, let us have peace.' }
+    favoriteVerse = ['Now hope does not disappoint, because the love has been p\
+oured out in our hearts by the Holy Spirit who was given to us.', 'Therefore, a\
+s through one man\'s offense judgment came to all men, resulting in condemnatio\
+n,even so through one Man\'s righteous act the free gift came to all men, resul\
+ting in justification of life.']
+    return mainHeadings, boldVerse, keyLinks, favoriteVerse
+
+def chapter6():
+    mainHeadings =['Dead to Sin, Alive to God', 'From Slaves of Sin to Slaves o\
+f God']
+    boldVerse = ['What then? Shall we sin because we are not under law but unde\
+r grace? Certainly not!']
+    keyLinks = {'':None}
+    favoriteVerse = ['And do not present your members as instruments of unright\
+eousness to sin, but present yourselves to God as being alive from the dead, an\
+d your members as instruments of righteousness to God','I speak in human terms \
+because of the weakness of your flesh. For just as you presented your members a\
+s slaves of uncleanness, and of lawlessness leading to more lawlessness, so now\
+ present your members as slaves of righteousness for holiness.']
+    return mainHeadings, boldVerse, keyLinks, favoriteVerse
+
+def chapter7():
+    mainHeadings =['Freed from the Law', 'Sin\'s Advantage in the Law','Law Can\
+not Save from Sin']
+    boldVerse = ['What shall we say then? Is the law sin? Certainly not! On the\
+contrary, I would not have know sin except the law. For I would not have known \
+covetousness unless the law had said, "You shall not covet','Has then what is g\
+ood become death to me? Certainly not! But sin, that it might appear sin, was p\
+roducing death in me through what is good, so that sin through the commandment \
+might become exceedingly sinful']
+    keyLinks = {'7:7':'Exodus 20:17; Deuteronomy 5:21'}
+    favoriteVerse = ['So then if, while her husband lives, she marries another \
+man, she will be called an adulteress; but if her husband dies, she is free fro\
+m that law, so that she is no adulteress, though she has married another man.',
+'Therefore the law is holy, and the commandment holy and just and good','If, th\
+en, I do what I will not to do. I agree with the law that it is good.','For I d\
+elight in the law of God according to the inward man.']
+    return mainHeadings, boldVerse, keyLinks, favoriteVerse
+
+def chapter8():
+    mainHeadings =['Free from Indwelling Sin','Sonship Through the Spirit', 'Fr\
+om Suffering to Glory','God\'s Everlasting Love']
+    boldVerse = ['Therefore, brethren, we are debtors- not to the flesh, to liv\
+e according to the flesh.','For I consider that the sufferings of this present \
+time are not worthy to be compared with the glory which shall be revealed in us'
+,'What then shall we say to these things? If God is for us, who can be against \
+us?']
+    keyLinks = {'8:1':'NU-Text omits the rest of this verse',
+    '8:26':'NU-text omits for us','8:36':'Psalm 44:22'}
+    favoriteVerse = ['For to be carnally minded is death, but to be spiritually\
+minded is life and peace','The Spirit Himself bears witness with our spirit tha\
+t we are children of God', ' Now He who searches the hearts knows what the mind\
+ of the Spirit is, because He makes intercession for the saints according to th\
+e will of God','Yet in all these things we are more than conquerors through Him\
+who loved us.']
+    return mainHeadings, boldVerse, keyLinks, favoriteVerse
+
 
 
 def main():
@@ -120,6 +185,41 @@ def main():
     print("One of my favorite verses is", fV[3])
     verse = pickRandFavoriteVerse(fV)
     print(verse)
+    mH,bV,kL,fV = chapter5()
+    print("Chapter 5:")
+    print(bV[0])
+    print(kL['5:1'])
+    print("One of my favorite verses is", fV[1])
+    verse = pickRandFavoriteVerse(fV)
+    print(verse)
+    mH,bV,kL,fV = chapter6()
+    print("Chapter 6:")
+    print(mH[1])
+    print(bV[0])
+    print("One of my favorite verses is", fV[1])
+    verse = pickRandFavoriteVerse(fV)
+    print(verse)
+    print('9/10/18')
+	#print(date(2018,9,10).weekday()) # day of the week function
+    print('9/12/18')
+    print("High 93 L 63 UV Index 7 of 10")
+    mH,bV,kL,fV = chapter7()
+    print(mH[0])
+    print(bV[0])
+    print(kL['7:7'])
+    print("One of my favorite verses is", fV[1])
+    verse = pickRandFavoriteVerse(fV)
+    print(verse)
+    mH,bV,kL,fV = chapter8()
+    print(mH[3])
+    print(bV[2])
+    print(kL['8:36'])
+    print("One of my favorite verses is", fV[3])
+    verse = pickRandFavoriteVerse(fV)
+    print(verse)
+
+
+
 
 
 
