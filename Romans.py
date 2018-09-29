@@ -224,6 +224,8 @@ def main():
     print(date(2018,9,29))
     print(date(2018,9,29).weekday())
     print("DET 24:16")
+    print('deuteronomy 32')
+	print("DEUTERONOMY 32")
 
 
 
