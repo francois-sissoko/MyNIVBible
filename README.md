@@ -9,10 +9,13 @@ Starting in Romans
 5. Add Date and the Weather
 6. Added a joke about what day of worship should be(simple print error)
 
-#TODO add a few more chapters 
-#TODO make the future chapters more dictionary based romans is list focused right now which doesn't interact with the links as well as 
-it could. I feel like this feature will come together with time. But will require refactoring of Romans.py
-#TODO add a few more books 
+#TODO Add a few more chapters of the Romans(In Progress)
+
+#TODO Make the future chapters more dictionary based romans is list focused right now which doesn't interact with the links as well as 
+it could. I feel like this feature will come together with time. But will require refactoring of Romans.py (Accomplished) 
+
+#TODO Add a few more books 
+
 #TODO Create the program so it doesn't work on days or won't give certain replies if it is not a Saturday or Sunday
 
 Files
