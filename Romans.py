@@ -217,6 +217,31 @@ def main():
     print("One of my favorite verses is", fV[3])
     verse = pickRandFavoriteVerse(fV)
     print(verse)
+    print(date(2018,9,27))
+    print(date(2018,9,27).weekday())
+    print("Thursday")
+    print("Satuday 9/29/2018")
+    print(date(2018,9,29))
+    print(date(2018,9,29).weekday())
+    print("DET 24:16")
+    print("Deuteronomy 32")
+    print("JER 6 16-19")
+    #print(date(9,2018,29))
+    print(datetime)
+    print(date(2018,9,30).weekday())
+    print("PROV #3")
+    print(""'date(2018.9.weekday())'"" )
+    print(""'date(2018.10.weekday())'"")
+    print(date(2018,10,2).weekday())
+    print("Tuesday Error")
+    print(date(2018,11,4).weekday())
+    print("Today is a sunday")
+    print("It is not an error because I worship on Saturday and Sunday is a common day to worship")
+
+    #print("930PM")
+    #print(date(2018,9,30).weekday'[<<s>>']())
+
+
 
 
 
