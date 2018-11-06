@@ -237,7 +237,8 @@ def main():
     print(date(2018,11,4).weekday())
     print("Today is a sunday")
     print("It is not an error because I worship on Saturday and Sunday is a common day to worship")
-
+    print("Today is a Monday")
+    print(date(2018,11,5).weekday())
     #print("930PM")
     #print(date(2018,9,30).weekday'[<<s>>']())
 
