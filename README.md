@@ -22,3 +22,5 @@ Files
 1. Romans.py
 
 ##ADDED DATETIME
+
+##Goodness - this can be scrapped pretty fast to build up list and dictionarys for different chapters. 
